@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="926" Width="428"
+       
+
+        >
+
+    <Grid x:Name="page_1">
+        <Grid.Background>
+            <ImageBrush ImageSource="pg1.l.png"/>
+        </Grid.Background>
+        <TextBox x:Name="fname" HorizontalAlignment="Left" Height="54" TextWrapping="Wrap"  VerticalAlignment="Top" Width="209" Margin="195,561,0,0" Background="#FFA4A4A4" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Height="50" TextWrapping="Wrap"  VerticalAlignment="Top" Width="209" Margin="195,733,0,0" Background="#FFA4A4A4" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="lname" HorizontalAlignment="Left" Height="50" TextWrapping="Wrap"  VerticalAlignment="Top" Width="209" Margin="195,640,0,0" Background="#FFA4A4A4" TextChanged="TextBox_TextChanged"/>
+        <Button Content="Enter" BorderThickness="0" VerticalAlignment="Top" Margin="306,848,48.333,0" Height="18" Background="#EBFF06" Click="Button_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.test3sw"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="test3sw" Height="926" Width="428">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource= "pg3.l swimming.png"/>
+        </Grid.Background>
+        <Button Content="2 times a week" Margin="38,400,224.333,426.667"  Background="#FFBF1BA6" FontSize="18" Click="Button_Click_3"/>
+        <Button Content="every day" Margin="38,508,224.333,307.667" Background="#FFBF1BA6" FontSize="18" Click="Button_Click"/>
+        <Button Content="once a week" Margin="249,400,19.333,426.667"  Background="#FFBF1BA6" FontSize="18" Click="Button_Click_2"/>
+        <Button Content="5 times a week" Margin="249,508,19.333,307.667"  Background="#FFBF1BA6" FontSize="18" Click="Button_Click_1"/>
+    </Grid>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1.test2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="test2" Height="926" Width="428">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="pg3.l biking.png"/>
+        </Grid.Background>
+        <Button Content="2 times a week" Margin="30,480,248.333,354.667"  Background="#FFBF1BA6" FontSize="18" Click="Button_Click"/>
+        <Button Content="every day" Margin="30,567,248.333,272.667"  Background="#FFBF1BA6" FontSize="18" Click="Button_Click_2"/>
+        <Button Content="5 times per week" Margin="224,480,54.333,354.667"  Background="#FFBF1BA6" FontSize="18" Click="Button_Click_1"/>
+        <Button Content="once a week" Margin="224,567,54.333,272.667"  Background="#FFBF1BA6" FontSize="18" Click="Button_Click_3"/>
+    </Grid>
+
+</Window>
